@@ -51,7 +51,7 @@ const TopBar: React.FC = () => {
               <DropdownMenu.Separator className="h-px bg-gray-200 my-1" />
               <DropdownMenu.Item
                 className="flex items-center gap-2 px-2 py-2 text-sm text-gray-700 rounded cursor-pointer hover:bg-gray-100 outline-none"
-                onSelect={() => auth.signoutRedirect()}
+                onSelect={() => auth.removeUser()}
               >
                 <LogOut size={14} />
                 Sign out

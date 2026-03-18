@@ -15,8 +15,11 @@ const pluginRegistry: PluginEntry[] = [
     scope: "contentCreationPlugin",
     url: "http://localhost:3001/remoteEntry.js",
   },
-  // Add more plugins here as they are created:
-  // { id: "translation", scope: "translationPlugin", url: "http://localhost:3002/remoteEntry.js" },
+  {
+    id: "translation",
+    scope: "translationPlugin",
+    url: "http://localhost:3002/remoteEntry.js",
+  },
 ];
 
 export default pluginRegistry;
