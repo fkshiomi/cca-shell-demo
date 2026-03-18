@@ -1,0 +1,14 @@
+# Kiro
+.kiro/
+
+# Docs
+docs/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Google OIDC credentials
+google.oidc.json
